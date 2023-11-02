@@ -8,5 +8,5 @@ int main()
     CreateMutexA(NULL, TRUE, "ROBLOX_singletonMutex");
     std::cout << "If you want to quit, please press enter or close the application.\n";
     std::getchar(); // Disgusting but works
-    return 1;
+    return 0;
 }
